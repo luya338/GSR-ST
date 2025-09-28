@@ -13,7 +13,8 @@ GSR-ST is a generalized spatial-temporal deep learning framework for efficiently
 
 ### -----------------------train model----------------------------------
 
-genomic signal and region datasets including three tasks: PAS, TIS, and Promoters. To train the GSR-ST model, follow these steps:
+Genomic signal and region datasets including three tasks: PAS, TIS, and Promoters. The dataset used in this study can be downloaded from the (https://www.alipan.com/s/HLzwEd1JiYb).
+To train the GSR-ST model, follow these steps:
 
  1\.Feature Preparation
     Use the code in the "feature" folder to generate the required features.
@@ -31,7 +32,7 @@ genomic signal and region datasets including three tasks: PAS, TIS, and Promoter
 
 ### -----------------------Predciton----------------------------------
 
- The genomic signal and region test datasets include PAS_data, Promoter_data, and TIS_data. 
+ The genomic signal and region test datasets can be found in the processed_data folder. 
    To re-run predictions using the trained model, run "model test.py" in the test folder for GSR dataset prediction;
    For the PAS independent test set (Hg38), run "Independent test.py" in the test folder.
 
